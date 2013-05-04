@@ -30,7 +30,7 @@
 // Enable software debounce? EXPERIMENTAL. Enabling this feature may negatively
 // affect pour accuracy.  In particular, a delay is added to each flow meter
 // ISR, disabling all other interrupts during this time.
-#define KB_ENABLE_SOFT_DEBOUNCE 0
+#define KB_ENABLE_SOFT_DEBOUNCE 1
 
 // Approximate minimum pulse width required for incoming external interrupts.
 #define KB_SOFT_DEBOUNCE_MICROS 1200
